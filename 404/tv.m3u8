@@ -1,38 +1,38 @@
 #EXTM3U
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M_R_EM_MOVISTARPLUS.png",ES Movistar+ 
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Movistar%2B_Logo.png",ES Movistar+ 
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/8994
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Dark_TV_logo.svg/1200px-Dark_TV_logo.svg.png",|ES| DARK HD
+#EXTINF:-1, tvg-logo="https://ipmark.com/wp-content/uploads/2016/10/DARK-Canal-Televisi%C3%B3n-Terror.png",|ES| DARK HD
 http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/6952
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M_R_EM_MOVISTARGOLF.png",ES Movistar Golf 
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1200px-Movistar_Golf.svg.png",ES Movistar Golf 
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1142
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M_R_EM_MOVISTARLALIGA.png",ES Movistar LaLiga 
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/LaLiga_por_Movistar_Plus%2B_2022_logo.svg/1200px-LaLiga_por_Movistar_Plus%2B_2022_logo.svg.png",ES Movistar LaLiga 
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1141
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M_R_EM_MOVISTARLIGACAMPEONES.png",ES Movistar Liga De Campeones 3
+#EXTINF:-1, tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ec/Movistar_Liga_de_Campeones.svg/revision/latest/scale-to-width-down/284?cb=20200629232504&path-prefix=es",ES Movistar Liga De Campeones 3
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/298805
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DAZN_logo.svg/1280px-DAZN_logo.svg.png",ES M DAZN 1 HD
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/DAZN_1_Logo.svg",ES M DAZN 1 HD
 http://628102028954228385.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228385.ts
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DAZN_logo.svg/1280px-DAZN_logo.svg.png",ES M DAZN 2 HD
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/2560px-DAZN_2.svg.png",ES M DAZN 2 HD
 http://628102028954228388.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228388.ts
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DAZN_logo.svg/1280px-DAZN_logo.svg.png",ES M DAZN 4 FHD
+#EXTINF:-1, tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d5/DAZN_4.svg/revision/latest?cb=20220119162341",ES M DAZN 4 FHD
 http://628102028954228397.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228397.ts
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DAZN_logo.svg/1280px-DAZN_logo.svg.png",ES M DAZN 3 FHD 
+#EXTINF:-1, tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/ba/DAZN_3.svg/revision/latest?cb=20220119161736",ES M DAZN 3 FHD 
 http://628102028954228393.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228393.ts
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DAZN_logo.svg/1280px-DAZN_logo.svg.png",ES DAZN LALIGA HD
+#EXTINF:-1, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7e-zQoZHM90JKvAXH_QxnHAKJGot4hBvexqqvCcjRnvMdhw2ASeiv-bxh3GshRU3Ndx0&usqp=CAU",ES DAZN LALIGA HD
 http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Mundotoro.svg/1200px-Mundotoro.svg.png",|ES| Mundotoro HD
+#EXTINF:-1, tvg-logo="https://www.mundotoro.com/wp-content/uploads/2023/02/mundotoro-750x536.jpg",|ES| Mundotoro HD
 http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/83555
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DAZN_logo.svg/1280px-DAZN_logo.svg.png",ES DAZN FORMULA 1 HD
+#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/DAZN_F1_logo.png",ES DAZN FORMULA 1 HD
 http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts
 
 #EXTINF:-1, tvg-logo="https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png", group-title="PLUTO",USA FOX SPORTS
