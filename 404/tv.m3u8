@@ -1,49 +1,49 @@
 #EXTM3U
-#EXTINF:-1,ES Movistar+ iptvlister.com
+#EXTINF:-1,ES Movistar+ 
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/8994
 
 #EXTM3U
-#EXTINF:-1,|ES| DARK HD iptvlister.com
+#EXTINF:-1,|ES| DARK HD
 http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/6952
 
 
 #EXTM3U
-#EXTINF:-1,ES Movistar LaLiga iptvlister.com
+#EXTINF:-1,ES Movistar LaLiga
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1141
 
 
 #EXTM3U
-#EXTINF:-1,ES Movistar Liga De Campeones 3 iptvlister.com
+#EXTINF:-1,ES Movistar Liga De Campeones 3
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/298805
 
-#EXTINF:-1,ES M DAZN 1 HD iptvlister.com
+#EXTINF:-1,ES M DAZN 1 HD
 http://628102028954228385.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228385.ts
 
 #EXTM3U
-#EXTINF:-1,ES M DAZN 2 HD iptvlister.com
+#EXTINF:-1,ES M DAZN 2 HD
 http://628102028954228388.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228388.ts
 
 
 #EXTM3U
-#EXTINF:-1,ES M DAZN 4 FHD Backup NO_1 iptvlister.com
+#EXTINF:-1,ES M DAZN 4 FHD
 http://628102028954228397.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228397.ts
 
 
-#EXTINF:-1,ES M DAZN 3 FHD Backup NO_1 iptvlister.com
+#EXTINF:-1,ES M DAZN 3 FHD 
 http://628102028954228393.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228393.ts
 
 
 #EXTM3U
-#EXTINF:-1,ES DAZN LALIGA HD iptvlister.com
+#EXTINF:-1,ES DAZN LALIGA HD
 http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts
 
 
-#EXTINF:-1,|ES| Mundotoro HD iptvlister.com
+#EXTINF:-1,|ES| Mundotoro HD
 http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/83555
 
-#EXTINF:-1,ES DAZN FORMULA 1 HD iptvlister.com
+#EXTINF:-1,ES DAZN FORMULA 1 HD
 http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts
 
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png" group-title="PLUTO",USA FOX SPORTS iptvlister.com
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png" group-title="PLUTO",USA FOX SPORTS
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT={TARGETOPT}&deviceId={PSID}&advertisingId={PSID}&us_privacy=1YNY&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
