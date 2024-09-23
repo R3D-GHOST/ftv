@@ -43,3 +43,7 @@ http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/83555
 
 #EXTINF:-1,ES DAZN FORMULA 1 HD iptvlister.com
 http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts
+
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png" group-title="PLUTO",USA FOX SPORTS iptvlister.com
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT={TARGETOPT}&deviceId={PSID}&advertisingId={PSID}&us_privacy=1YNY&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
