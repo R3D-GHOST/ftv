@@ -13,6 +13,10 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2800
 #EXTINF:-1, ES Movistar LaLiga ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
 
+#EXTINF:-1, ES Movistar LaLiga 2 ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
+http://628102028954165398.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165398.ts
+
+
 #EXTINF:-1, ES LaLiga TV Hypermotion , tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/LaLiga_Hypermotion_2023_Vertical_Logo.svg/1200px-LaLiga_Hypermotion_2023_Vertical_Logo.svg.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/300830
 
@@ -27,7 +31,14 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/8994
 #EXTINF:-1, ES Movistar Golf, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1200px-Movistar_Golf.svg.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1142
 
+#EXTINF:-1, ES Movistar Series, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBooxElj3D_60ylTNA2NjEz6tRAJ-up2AX5w&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1140
 
+#EXTINF:-1, ES Movistar Clasicos, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Movistar-Cl%C3%A1sicos.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/281773
+
+#EXTINF:-1, ES Movistar Series, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBooxElj3D_60ylTNA2NjEz6tRAJ-up2AX5w&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1140
 
 #EXTGRP:DAZN 
 #EXTINF:-1, ES M DAZN 1 HD ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"
