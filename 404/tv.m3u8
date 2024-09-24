@@ -56,8 +56,24 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1140
 #EXTINF:-1, ES Movistar Clasicos, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Movistar-Cl%C3%A1sicos.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/281773
 
-#EXTINF:-1, ES Movistar Accion, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Movistar_Acci%C3%B3n.svg"
+#EXTINF:-1, ES Movistar Accion, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQpf3bK8lcZBW6dNMJs5kZ2o-4mpMEdmUXQ&s"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1148
+
+
+#EXTINF:-1,ES Movistar Vamos, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Vamos_por_Movistar_Plus%2B_2023_Logo.svg/1280px-Vamos_por_Movistar_Plus%2B_2023_Logo.svg.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/300836
+
+
+#EXTINF:-1,ES Movistar La Resistencia ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfPzOL2eI_RIzMJVOLzXwRC2c40F1wOjazDA&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/286800
+
+
+#EXTINF:-1,Movistar Deportes HD ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSALZ31CSIyN4JwWpMwCiyFw_3-zY_hdxuQQ&s"
+http://190.61.55.186:1010/play/a00q/index.m3u8
+
+#EXTINF:-1,ES Movistar Originales ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuXVk7BwqyGAZGTXOXfDBGwd9pS_0tmUBkOw&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2146
+
 
 #EXTGRP:DAZN 
 #EXTINF:-1, ES M DAZN 1 HD ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"
