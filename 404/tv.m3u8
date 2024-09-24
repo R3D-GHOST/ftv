@@ -21,8 +21,15 @@ http://628102028954165359.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165359.ts
 http://628102028954246282.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/246282.ts
 
 #EXTGRP:LALIGA
+#EXTINF:-1, ES  LaLiga TV BAR,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBm53RPDi6Lkpv_3sKQZsbtMdkTG4wvsHRhQ&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
+
+#EXTINF:-1, ES  M LALIGA SMARTBANK HD  ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWPnQFHFmpHPX0u_N6j2zxqoueK0OPTVmhg&s"
+http://628102028954320786.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320786.ts
+
 #EXTINF:-1, ES Movistar LaLiga ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
+
 
 #EXTINF:-1, ES Movistar LaLiga 2 ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 http://628102028954165398.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165398.ts
