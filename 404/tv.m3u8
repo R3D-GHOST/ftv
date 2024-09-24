@@ -6,9 +6,11 @@ http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts
 
 #EXTINF:-1, MOTOGP HD ,tvg-logo="https://w7.pngwing.com/pngs/713/255/png-transparent-moto-gp-hd-logo-thumbnail.png"
 http://628102028954228385.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228385.ts
+
 #EXTGRP:CHAMPIONSLEAGUE
 #EXTINF:-1, ES Movistar Liga De Campeones , tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2800
+
 #EXTGRP:LALIGA
 #EXTINF:-1, ES Movistar LaLiga ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
@@ -22,6 +24,11 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/300830
 
 #EXTINF:-1, ES DAZN LALIGA HD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
 http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts
+
+
+#EXTINF:-1, ES DAZN LALIGA 2 HD, tvg-logo="https://i0.wp.com/jungle-team.com/wp-content/uploads/2022/07/dazn-laliga-2.png?fit=440%2C264&ssl=1"
+http://628102028954320780.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320780.ts
+
 
 
 #EXTGRP:MOVISTAR
