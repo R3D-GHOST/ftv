@@ -81,6 +81,10 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/286800
 #EXTINF:-1,Movistar Deportes HD ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSALZ31CSIyN4JwWpMwCiyFw_3-zY_hdxuQQ&s"
 http://190.61.55.186:1010/play/a00q/index.m3u8
 
+#EXTINF:-1,Movistar Deportes 2 ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSALZ31CSIyN4JwWpMwCiyFw_3-zY_hdxuQQ&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/44375
+
+
 #EXTINF:-1,ES Movistar Originales ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuXVk7BwqyGAZGTXOXfDBGwd9pS_0tmUBkOw&s"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2146
 
