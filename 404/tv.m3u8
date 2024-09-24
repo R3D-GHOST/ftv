@@ -17,6 +17,9 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
 #EXTINF:-1, ES Movistar Liga De Campeones , tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2800
 
+#EXTINF:-1,ES LaLiga TV Hypermotion , tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/LaLiga_Hypermotion_2023_Vertical_Logo.svg/1200px-LaLiga_Hypermotion_2023_Vertical_Logo.svg.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/300830
+
 #EXTINF:-1, ES M DAZN 1 HD ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"
 http://628102028954228385.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228385.ts
 
