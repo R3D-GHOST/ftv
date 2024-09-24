@@ -1,42 +1,43 @@
 #EXTM3U
 #EXTGRP:TV Premium
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Movistar%2B_Logo.png",ES Movistar+
+#EXTINF:-1, ES Movistar+ tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Movistar%2B_Logo.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/8994
 
-#EXTINF:-1, tvg-logo="https://ipmark.com/wp-content/uploads/2016/10/DARK-Canal-Televisi%C3%B3n-Terror.png",|ES| DARK HD
+#EXTINF:-1, |ES| DARK HD tvg-logo="https://ipmark.com/wp-content/uploads/2016/10/DARK-Canal-Televisi%C3%B3n-Terror.png"
 http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/6952
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1200px-Movistar_Golf.svg.png",ES Movistar Golf
+#EXTINF:-1, ES Movistar Golf tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1200px-Movistar_Golf.svg.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1142
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png",ES Movistar LaLiga
+#EXTINF:-1, ES Movistar LaLiga tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1141
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png",ES Movistar Liga De Campeones 3
+#EXTINF:-1, ES Movistar Liga De Campeones 3 tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/298805
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png",ES M DAZN 1 HD
+#EXTINF:-1, ES M DAZN 1 HD tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"
 http://628102028954228385.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228385.ts
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M2SD.png",ES M DAZN 2 HD
+#EXTINF:-1, ES M DAZN 2 HD tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M2SD.png"
 http://628102028954228388.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228388.ts
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN3.png",ES M DAZN 3 FHD
+#EXTINF:-1, ES M DAZN 3 FHD tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN3.png"
 http://628102028954228393.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228393.ts
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN4.png",ES M DAZN 4 FHD
+#EXTINF:-1, ES M DAZN 4 FHD tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN4.png"
 http://628102028954228397.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228397.ts
 
-#EXTINF:-1, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png",ES DAZN LALIGA HD
+#EXTINF:-1, ES DAZN LALIGA HD tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
 http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts
 
-#EXTINF:-1, tvg-logo="https://www.mundotoro.com/wp-content/uploads/2023/02/mundotoro-750x536.jpg",|ES| Mundotoro HD
+#EXTINF:-1, |ES| Mundotoro HD tvg-logo="https://www.mundotoro.com/wp-content/uploads/2023/02/mundotoro-750x536.jpg"
 http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/83555
 
+#EXTINF:-1, ES DAZN FORMULA 1 HD tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/DAZN_F1_logo.png"
+http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts
 
-#EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/DAZN_F1_logo.png",ES DAZN FORMULA 1 HD
-http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts#EXTINF:-1, tvg-logo="https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png", group-title="PLUTO",USA FOX SPORTS
+#EXTINF:-1, USA FOX SPORTS tvg-logo="https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png" group-title="PLUTO"
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8
 
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/BabyTV_logo.svg/1200px-BabyTV_logo.svg.png",|ES| BABY TV HD
