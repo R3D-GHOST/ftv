@@ -57,6 +57,10 @@ http://628102028954320780.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320780.ts
 #EXTINF:-1, ES Movistar+ ,tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Movistar%2B_Logo.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/8994
 
+#EXTINF:-1,ES Movistar Cine Espanol, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTByjxemPCNeiMhw_KJkRlADIs8Ku2yvZVO9A&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/64788
+
+
 #EXTINF:-1, ES Movistar Golf, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1200px-Movistar_Golf.svg.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1142
 
