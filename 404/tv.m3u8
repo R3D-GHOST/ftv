@@ -37,8 +37,8 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1140
 #EXTINF:-1, ES Movistar Clasicos, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Movistar-Cl%C3%A1sicos.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/281773
 
-#EXTINF:-1, ES Movistar Series, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBooxElj3D_60ylTNA2NjEz6tRAJ-up2AX5w&s"
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1140
+#EXTINF:-1, ES Movistar Accion, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Movistar_Acci%C3%B3n.svg"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1148
 
 #EXTGRP:DAZN 
 #EXTINF:-1, ES M DAZN 1 HD ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"
