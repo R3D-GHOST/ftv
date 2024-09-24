@@ -15,6 +15,11 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
 
 #EXTINF:-1, ES LaLiga TV Hypermotion , tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/LaLiga_Hypermotion_2023_Vertical_Logo.svg/1200px-LaLiga_Hypermotion_2023_Vertical_Logo.svg.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/300830
+
+#EXTINF:-1, ES DAZN LALIGA HD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
+http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts
+
+
 #EXTGRP:MOVISTAR
 #EXTINF:-1, ES Movistar+ ,tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Movistar%2B_Logo.png"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/8994
@@ -36,9 +41,6 @@ http://628102028954228393.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228393.ts
 
 #EXTINF:-1, ES M DAZN 4 FHD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN4.png"
 http://628102028954228397.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228397.ts
-
-#EXTINF:-1, ES DAZN LALIGA HD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
-http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts
 
 
 
