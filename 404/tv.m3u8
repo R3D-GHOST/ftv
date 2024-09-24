@@ -1380,88 +1380,474 @@ https://d73fb24db4524ddca65ec4935761d3ef.mediatailor.us-east-1.amazonaws.com/v1/
 
 
 
-
 #EXTM3U
-#EXTINF:-1 group-title="EXTRA", DAZN 1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tv-channel-%E2%94%82-dazn-1.png/800px-Tv-channel-%E2%94%82-dazn-1.png"
+#EXTINF:-1, DAZN 1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tv-channel-%E2%94%82-dazn-1.png/800px-Tv-channel-%E2%94%82-dazn-1.png"
 acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151
 
-#EXTINF:-1 group-title="EXTRA", Movistar +, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MPLUS.png",Movistar+
+#EXTINF:-1, Movistar +, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MPLUS.png"
 acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/ficha_m/VAMOSD.png",#Vamos - 1080p
+#EXTINF:-1, #Vamos - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/ficha_m/VAMOSD.png"
 acestream://859bb6295b8d0f224224d3063d9db7cdeca03122
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/ficha_m/VAMOSD.png",#Vamos - 720p
+#EXTINF:-1, #Vamos - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/ficha_m/VAMOSD.png"
 acestream://3bba7c95857c2502c7e03ced1a6a9b00eb567fa0
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png",M. LaLiga - 1080p MultiAudio (Opción 1)
+#EXTINF:-1, M. LaLiga - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png",M. LaLiga - 1080p MultiAudio (Opción 2)
+#EXTINF:-1, M. LaLiga - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 acestream://1969c27658d4c8333ab2c0670802546121a774a5
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png",M. LaLiga - 1080p MultiAudio (Opción 3)
+#EXTINF:-1, M. LaLiga - 1080p MultiAudio (Opción 3), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 acestream://731428b18eb656121990261c1b072b13f7caef30
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png",M. LaLiga - 720p
+#EXTINF:-1, M. LaLiga - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
 acestream://f031f5728b32f6089dda28edebe990cf198108d8
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG1.png",M. LaLiga 2 - 1080p
+#EXTINF:-1, M. LaLiga 2 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG1.png"
 acestream://26029f72a4ca831d09deefe89534818db1d105bc
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG1.png",M. LaLiga 2 - 720p
+#EXTINF:-1, M. LaLiga 2 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG1.png"
 acestream://80126b240f3e4e004754fd8f8103e857ab2556a0
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png",DAZN LaLiga - 1080p MultiAudio (Opción 1)
+#EXTINF:-1, DAZN LaLiga - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
 acestream://1960a9be8ae9e8c755330218eac4c5805466290a
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png",DAZN LaLiga - 1080p MultiAudio (Opción 2)
+#EXTINF:-1, DAZN LaLiga - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
 acestream://75251ba975132ec9a202806ba5bf606e87280c96
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png",DAZN LaLiga - 1080p MultiAudio (Opción 3)
+#EXTINF:-1, DAZN LaLiga - 1080p MultiAudio (Opción 3), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
 acestream://95b2238dec35cf00dfdf8fba18e9920bc2c56256
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png",DAZN LaLiga - 720p
+#EXTINF:-1, DAZN LaLiga - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
 acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL2.png",DAZN LaLiga 2 - 1080p
+#EXTINF:-1, DAZN LaLiga 2 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL2.png"
 acestream://e33e666c393ef04ebe99a9b92135d2e0b48c4d10
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL2.png",DAZN LaLiga 2 - 720p
+#EXTINF:-1, DAZN LaLiga 2 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL2.png"
 acestream://0950c37fe1ea817fc561c611ae943d58505f7a79
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS.png",LaLiga Hypermotion - 1080p
+#EXTINF:-1, LaLiga Hypermotion - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS.png"
 acestream://4c46585214b23b1d802ef2168060c7649a3894cf
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS.png",LaLiga Hypermotion - 720p
+#EXTINF:-1, LaLiga Hypermotion - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS.png"
 acestream://06b367c22394a1358c9cefa0cb5d0b64b9b2b3f4
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS2.png",LaLiga Hypermotion 2 - 1080p
+#EXTINF:-1, LaLiga Hypermotion 2 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS2.png"
 acestream://d81b4f2f3fde433539c097b2edc9b587ca47b087
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS2.png",LaLiga Hypermotion 2 - 720p
+#EXTINF:-1, LaLiga Hypermotion 2 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS2.png"
 acestream://2709d0ab86cb6ce7ba4d3ad188d7fa80668f2924
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png",M. Liga de Campeones - 1080p MultiAudio (Opción 1)
+#EXTINF:-1, M. Liga de Campeones - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
 acestream://931b1984badcb821df7b47a66ac0835ac871b51c
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png",M. Liga de Campeones - 1080p MultiAudio (Opción 2)
+#EXTINF:-1, M. Liga de Campeones - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
 acestream://f096a64dd756a6d549aa7b12ee9acf7eee27e833
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png",M. Liga de Campeones - 1080p
+#EXTINF:-1, M. Liga de Campeones - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
 acestream://1d79a7543d691666135669f89f3541f54e2dd0a9
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png",M. Liga de Campeones - 720p
+#EXTINF:-1, M. Liga de Campeones - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
 acestream://e2e2aca792aae5da19995ac516b1d620531bd49c
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP1.png",M. Liga de Campeones 2 - 1080p
+#EXTINF:-1, M. Liga de Campeones 2 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP1.png"
 acestream://fc2fe31b0bce25e2dc7ab4d262bf645e2be5a393
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP1.png",M. Liga de Campeones 2 - 720p
-acestream://52f0d1dfb58a18cc70fa43173b6fbe69f6405bd4
+#EXTINF:-1, M. Liga de Campeones 2 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP1.png"
+acestream://6753492c1908274c268a1b28e2a054a0ff8f86f9
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP2.png",M. Liga de Campeones 3 - 1080p
-acestream://b108b6e245acbab3e97d54539ba75914e8482d5f
+#EXTINF:-1, M. Liga de Campeones 3 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP2.png"
+acestream://ad372cba73aa0ece207a79532b3e30b731136bb2
 
-#EXTINF:-1 group-title="EXTRA", tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP2.png",M. Liga de Campeones 3 - 720p
-acestream://61115ea6d4f5ebba22dcfead5fa7c8df0d12b610
+
+
+
+
+#EXTINF:-1, M. Liga Europa - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LEURO.png"
+acestream://7cb1f50e6b130e70185ff13e12c7b99ed8358e5b
+
+#EXTINF:-1, M. Liga Europa - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LEURO.png"
+acestream://4a09f9c8f12204f5a8b37891854efae15c0422e5
+
+#EXTINF:-1, M. Liga Europa - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LEURO.png"
+acestream://e4f5c56373cf2c558ab40f6d1bdfc3db4db71da3
+
+#EXTINF:-1, M. Liga Europa - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LEURO.png"
+acestream://b403d01707be8aa0eac7fcd1deecab4ef6a2e1a7
+
+#EXTINF:-1, M. Liga Europa 2 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LEURO2.png"
+acestream://d1359e1fd1a21d6b1d665f5ec0a3a1e66b29b579
+
+#EXTINF:-1, M. Liga Europa 2 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LEURO2.png"
+acestream://7c4d8d246fd1414f4e8b58bb74b76353af604af1
+
+#EXTINF:-1, M. Liga Europa Conference - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LECON.png"
+acestream://b9da6e3d6b07a43c0e12c4626b64db71a09f0e01
+
+#EXTINF:-1, M. Liga Europa Conference - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LECON.png"
+acestream://d68dbe83d4bb290d8d1c7989a2e5abfd8ec61fd1
+
+#EXTINF:-1, M. Liga Europa Conference - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LECON.png"
+acestream://1ab6b39f6a5241b4573340d25467e1c28ec0bbf5
+
+#EXTINF:-1, M. Liga Europa Conference - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LECON.png"
+acestream://f421cd0d9c9f87c992ec72f3e7e206d5cfe2e575
+
+#EXTINF:-1, M. Premier League - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL.png"
+acestream://bd69eb88aa1d062b1b99ec2db693d4939af50e52
+
+#EXTINF:-1, M. Premier League - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL.png"
+acestream://c1677eae2bce5f1e3f34d8e3a5bc30f95fa1d0de
+
+#EXTINF:-1, M. Premier League - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL.png"
+acestream://41d3ab09f61e84a74c8862c33c4b3a5ca6c9b738
+
+#EXTINF:-1, M. Premier League - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL.png"
+acestream://c9817b2de9a59c1cda080ef92b5630d825ec2616
+
+#EXTINF:-1, M. Premier League 2 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL2.png"
+acestream://af401575f7b4507894f0364a8eace06aaf4520f4
+
+#EXTINF:-1, M. Premier League 2 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL2.png"
+acestream://943e59b40c66d08d3888b73d6cbe225d8e882c9c
+
+#EXTINF:-1, M. Premier League 3 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL3.png"
+acestream://07c2e2b61cf4cfeb4d7b6b7db9b4a44e10c9468d
+
+#EXTINF:-1, M. Premier League 3 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PL3.png"
+acestream://d3cc97089c15eabf54e45e0c25fd571827ea553d
+
+#EXTINF:-1, M. Bundesliga - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/BUND.png"
+acestream://c7f037c2e6d5c634eeb249d09d7c83e07a604c7a
+
+#EXTINF:-1, M. Bundesliga - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/BUND.png"
+acestream://a1be7c19c29f0297e29e12316b2d9db1e0c0ef62
+
+#EXTINF:-1, M. Bundesliga - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/BUND.png"
+acestream://f0e120d622d2e09463ab45cbb13b802b758f3f5c
+
+#EXTINF:-1, M. Bundesliga - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/BUND.png"
+acestream://24a7ab9456184b78e5c36deaa5e8ed12845fdf91
+
+#EXTINF:-1, M. Serie A - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/SERIEA.png"
+acestream://f65d05cc72ff2a2d8f76e39f2f404c6b485abac4
+
+#EXTINF:-1, M. Serie A - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/SERIEA.png"
+acestream://f187d5b73c72a3f7640c5c5d368f4d39a45624cf
+
+#EXTINF:-1, M. Serie A - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/SERIEA.png"
+acestream://f3b4aeb8773ed0abfba4507dc525de25ebda69a1
+
+#EXTINF:-1, M. Serie A - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/SERIEA.png"
+acestream://0a9de7b2956c12e982c9b67d52b687f39c4cdd17
+
+#EXTINF:-1, M. LaLiga - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LALIGA.png"
+acestream://14bb5c3f5b685fb3f4f3f263c5af75b20cd1ef23
+
+#EXTINF:-1, M. LaLiga - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LALIGA.png"
+acestream://3ed3053750d3a4e2a33de41c5740a7503c524849
+
+#EXTINF:-1, M. LaLiga - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LALIGA.png"
+acestream://733f9f882f0843f80aef37f29b8582f6f9a152ba
+
+#EXTINF:-1, M. LaLiga - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LALIGA.png"
+acestream://5767db75c25d48aa4f68eb6864973d8a1c17eecc
+
+#EXTINF:-1, M. LaLiga 2 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LALIGA2.png"
+acestream://0eaf14c36e5a13a1cd6a6d6b3a23d9e50cc09a9a
+
+#EXTINF:-1, M. LaLiga 2 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LALIGA2.png"
+acestream://4e205ad55f85c1cf96f6f96f7e84cd8f2759e2bc
+
+#EXTINF:-1, M. Champions League - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAMPIONS.png"
+acestream://f1e1321a673d85eb4cb2ff71c36df20cb059f04f
+
+#EXTINF:-1, M. Champions League - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAMPIONS.png"
+acestream://16dbb2e217c8245b5c7e49aa118ac91d9c6c5a1a
+
+#EXTINF:-1, M. Champions League - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAMPIONS.png"
+acestream://b2da22570f72b68f1f571db5cc430d3e5c248c7b
+
+#EXTINF:-1, M. Champions League - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAMPIONS.png"
+acestream://e39dc31708f61f663ba4ff3c2264d98c0fc3cda6
+
+
+#EXTINF:-1, M. Europa League - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/EUROPA.png"
+acestream://af5c9e4d3d4f16468ef34d39c45cf4d7338b2550
+
+#EXTINF:-1, M. Europa League - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/EUROPA.png"
+acestream://c3b85ccf832b3a5c7f37e2f799f1cc735a743870
+
+#EXTINF:-1, M. Europa League - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/EUROPA.png"
+acestream://d75d3a45d6e8cc73d195aeef0e4b94e1050a5c87
+
+#EXTINF:-1, M. Europa League - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/EUROPA.png"
+acestream://ad4f2b0b12965b26097b9e1c9083c06fa062bff1
+
+#EXTINF:-1, M. Copa del Rey - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/COPADELREY.png"
+acestream://3ae0bb46e9e09c3e70238e2d01f78f6c6d63e2ae
+
+#EXTINF:-1, M. Copa del Rey - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/COPADELREY.png"
+acestream://2e949c7885797f72c58b26b8c7875b7c9e4e7a46
+
+#EXTINF:-1, M. Copa del Rey - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/COPADELREY.png"
+acestream://2a78ee149ec01efb6c1eb3e64b89de046bb3b689
+
+#EXTINF:-1, M. Copa del Rey - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/COPADELREY.png"
+acestream://f953a2f4887de758c87e73e3bb1a7c1e505b3c3d
+
+#EXTINF:-1, M. Ligue 1 - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LIGUE1.png"
+acestream://4c3cb0461e1c3fa8699f1bc1e5d7cc7c9c6c9e0c
+
+#EXTINF:-1, M. Ligue 1 - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LIGUE1.png"
+acestream://97b69b5f70e7072b2c82f49ed14a1c63aa5d74bc
+
+#EXTINF:-1, M. Ligue 1 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LIGUE1.png"
+acestream://b8927db639564ccaa48eac213d82c8e8c6e042e1
+
+#EXTINF:-1, M. Ligue 1 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/LIGUE1.png"
+acestream://2dc320e783d64ff4218b9b3a95cc2eaf2c16cfbe
+
+#EXTINF:-1, M. MLS - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLS.png"
+acestream://a52f55cbb8f7c5b2a3a69e94545c8d47b14de58f
+
+#EXTINF:-1, M. MLS - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLS.png"
+acestream://11b9b22b16b3d6d0dcf8f934045dcf8744154e3a
+
+#EXTINF:-1, M. MLS - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLS.png"
+acestream://ec80c00a4cb5f85fdf22074a86782e7df8d6cbfd
+
+#EXTINF:-1, M. MLS - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLS.png"
+acestream://5c5b6da6b3f8e44c96d8c8c3b8485f60df57a174
+
+#EXTINF:-1, M. NBA - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NBA.png"
+acestream://2b77c6f2b00f7fef192e083dabc06e8bc05880a4
+
+#EXTINF:-1, M. NBA - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NBA.png"
+acestream://b8412554e707e94c6d3af8ff0da0b45096bda828
+
+#EXTINF:-1, M. NBA - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NBA.png"
+acestream://8c5e775c123b234e2001541bc80a4d1a19e9b66b
+
+#EXTINF:-1, M. NBA - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NBA.png"
+acestream://3c6534f8728d0e10a592d9d7a0e12f042f5b56e2
+
+#EXTINF:-1, M. NFL - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NFL.png"
+acestream://b2c4b4e2b1e8a2c276a6d8c61a3b1306d0c74870
+
+#EXTINF:-1, M. NFL - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NFL.png"
+acestream://6797e5e9a9b54c128c5f61b3b1e2d4ef0f154d6f
+
+#EXTINF:-1, M. NFL - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NFL.png"
+acestream://3b4e4f2e5ffb7e27a9b9e167e8c4a2a3c2f89f56
+
+#EXTINF:-1, M. NFL - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NFL.png"
+acestream://d72c0e29f0804d8db051c8f5806b59de60b6c24d
+
+#EXTINF:-1, M. F1 - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/F1.png"
+acestream://12c3e2577a11b7dabe7e5c0d4eab206d378e69a7
+
+#EXTINF:-1, M. F1 - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/F1.png"
+acestream://92e37854f8d4c9c687d88f3d1bcfffd0e9d0b4a8
+
+#EXTINF:-1, M. F1 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/F1.png"
+acestream://fa5f3e8e3b80bb9d23edb565e82f0f9a8c83227b
+
+#EXTINF:-1, M. F1 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/F1.png"
+acestream://fb8c4d7d5f5da70d8fa90fcbf39c5a1af4db1d3c
+
+#EXTINF:-1, M. PGA Tour - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PGA.png"
+acestream://b0089b25505712b12d0f192e9a6605ecf10f1e7e
+
+#EXTINF:-1, M. PGA Tour - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PGA.png"
+acestream://d6a8e640d858c9e43b9162aa7f0d0d4f26449562
+
+#EXTINF:-1, M. PGA Tour - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PGA.png"
+acestream://6a2d8f5647eaa9daff7cabc8b998e72e99c32e9a
+
+#EXTINF:-1, M. PGA Tour - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/PGA.png"
+acestream://1d96d6e8a04f5b75457f3d06e478f0e865c2e8ab
+
+#EXTINF:-1, M. Tennis - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tennis.png"
+acestream://eb1a74837e6c7c63b740c08a5b44f2335a6b6545
+
+#EXTINF:-1, M. Tennis - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tennis.png"
+acestream://d9e485a5c04e20468e2b98c2aa257c0e77cc2b44
+
+#EXTINF:-1, M. Tennis - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tennis.png"
+acestream://ae50d912bfc6260c9e8443d09c7c51efb98f063f
+
+#EXTINF:-1, M. Tennis - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tennis.png"
+acestream://b9bda54d6f4f3d456e2162928dfe93070d219a72
+
+#EXTINF:-1, M. WWE - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/WWE.png"
+acestream://bcf6e6e441e1b75df07747e0cc6e12bbbf47f8e4
+
+#EXTINF:-1, M. WWE - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/WWE.png"
+acestream://bfcf686fa1b2e589cb1b3b1f9f92d6de97d8f62a
+
+#EXTINF:-1, M. WWE - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/WWE.png"
+acestream://defd2a9f1768d0a3a6859d4f1934c4d5db6f5c57
+
+#EXTINF:-1, M. WWE - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/WWE.png"
+acestream://e2ec1501ac007a5ebd2a6e25ab04503173c4dfc8
+
+#EXTINF:-1, M. Golf - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://d5d29d8c0d2f87e6dc5822e1c63b4e4a789e1bc3
+
+#EXTINF:-1, M. Golf - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://ab30c93f59d1be6b2b370dfc7e2c1d4a1f8bb167
+
+#EXTINF:-1, M. Golf - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://2d2c2cbd49a5db123163ba4f47c5c3b25d50c088
+
+#EXTINF:-1, M. Golf - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://a4bcbf12cbe98c05b3d7ed4f1b5d9f6918e54c3c
+
+#EXTINF:-1, M. Deportes - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Deportes.png"
+acestream://2c12182e1dc787e94c6596d49b13e3b47a4f55b
+
+#EXTINF:-1, M. Deportes - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Deportes.png"
+acestream://b79c946b98c504fbd8d4402c21c5d1dbd8f44b7e
+
+#EXTINF:-1, M. Deportes - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Deportes.png"
+acestream://4374c6c40db3194a4b72e8c245d7d71be08a60a5
+
+#EXTINF:-1, M. Deportes - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Deportes.png"
+acestream://59d2a7e3d61b64f682eec4aa704ba6c045066f6f
+
+#EXTINF:-1, M. Fútbol - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Futbol.png"
+acestream://c03b4a914c8d6c62e5d4c0a5a2e49e4dcf2a53be
+
+#EXTINF:-1, M. Fútbol - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Futbol.png"
+acestream://2e374f0f93ff1b62758ff89e5bb13c2fbc5a68f5
+
+#EXTINF:-1, M. Fútbol - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Futbol.png"
+acestream://17a983c057c6a123f7a3f156993d2bcaebc1f19c
+
+#EXTINF:-1, M. Fútbol - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Futbol.png"
+acestream://1a62a97f39d6a95e80b290ec25f933a4c6e7ab3d
+
+#EXTINF:-1, M. Baloncesto - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://5b763b9f29b2de8da42c12e24b84074801c5e6f3
+
+#EXTINF:-1, M. Baloncesto - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://a632af9f5c4f3c4bdb72b7d587b77e00b917fb46
+
+#EXTINF:-1, M. Baloncesto - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://c9d68f3db5b4aeed9c5db36fcddbc0ef7d67904d
+
+#EXTINF:-1, M. Baloncesto - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://5a756b05776b0cded0c5e9aa600eec18e88b6f29
+
+#EXTINF:-1, M. Ciclismo - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Ciclismo.png"
+acestream://c77bb563d6d26ed94f2c30b7c3948c524bc58d72
+
+#EXTINF:-1, M. Ciclismo - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Ciclismo.png"
+acestream://8c845953a840504d528a0c3e798c36a1f4507ec7
+
+#EXTINF:-1, M. Ciclismo - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Ciclismo.png"
+acestream://1b4cc69ef19aa5679cf4b6f3912fc61a32c7e5c2
+
+#EXTINF:-1, M. Ciclismo - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Ciclismo.png"
+acestream://ccfbc049c1169c4a04d8c47b4e41468b1d64e1af
+
+#EXTINF:-1, M. Boxeo - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://f83c4f0bc15c9a4b5a15bfc5e6f1b64148ff0f49
+
+#EXTINF:-1, M. Boxeo - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://cb1d2cbdc6b529ea74b0e4b0f90aaafe1f9c251b
+
+#EXTINF:-1, M. Boxeo - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://e0839d377d53b7e36cf06e348d8e34e9f4b927a1
+
+#EXTINF:-1, M. Boxeo - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://6d7bffac26a2ed915ae1ed57c37806774cbb04ef
+
+#EXTINF:-1, M. Tenis - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tenis.png"
+acestream://d62a9d7f25a9fcd7608d78c9a1462959cfb1744f
+
+#EXTINF:-1, M. Tenis - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tenis.png"
+acestream://7d6b58f797279e03c5a7ee60d3200e38e3b82b70
+
+#EXTINF:-1, M. Tenis - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tenis.png"
+acestream://3f4b21b0c60b11e4e8f78eac91a17dc0270eaf52
+
+#EXTINF:-1, M. Tenis - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Tenis.png"
+acestream://a43247f1c0bc4b4e279eb34e930ab150f7d481da
+
+#EXTINF:-1, M. Fórmula 1 - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Formula1.png"
+acestream://7cc06f3f200184caaafc08414efc6512b2f7a488
+
+#EXTINF:-1, M. Fórmula 1 - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Formula1.png"
+acestream://bcdb4a9e5b1f3c68cc27e58b77a9261d0193c18c
+
+#EXTINF:-1, M. Fórmula 1 - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Formula1.png"
+acestream://2e6071cb5410e6f187dd9994402e9f615258bdee
+
+#EXTINF:-1, M. Fórmula 1 - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Formula1.png"
+acestream://6b43eeb6724e8477ed24f1c1a5a3dfc2ef8f5e27
+
+#EXTINF:-1, M. Golf - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://a6e0634eaa5f4e4f46f96eb215d1b8dc5e8325d2
+
+#EXTINF:-1, M. Golf - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://f834f7b6cb6f1ae6f0c53959f87294a568e5877d
+
+#EXTINF:-1, M. Golf - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://ddf4b19f59e6bc053cabc2dbb47d59e5d59cc2bc
+
+#EXTINF:-1, M. Golf - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Golf.png"
+acestream://df2a95db8d4e2254a5b93e9a8e5de828e6eb3f88
+
+#EXTINF:-1, M. Voleibol - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Voleibol.png"
+acestream://6796583b0c764d3b3b2b62f5c58723e53e7367f7
+
+#EXTINF:-1, M. Voleibol - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Voleibol.png"
+acestream://1e2c78b0f89d9a2e1205367e99b8f06a9a2a1b16
+
+#EXTINF:-1, M. Voleibol - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Voleibol.png"
+acestream://6a22ebf40e4d763e56c4852130fef28bc7b55e83
+
+#EXTINF:-1, M. Voleibol - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Voleibol.png"
+acestream://8434f63e11b5428f17c2e8279b4c63368f9a11e8
+
+#EXTINF:-1, M. Baloncesto - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://9a6b8d77b46ed6233d60d3f38f45e5bafc52c7b5
+
+#EXTINF:-1, M. Baloncesto - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://1a5b2e5a5a2f33d64d84ebf2c7b58697b3f9f477
+
+#EXTINF:-1, M. Baloncesto - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://da77c95b0b2e254423d0c79b58a589d5d8571231
+
+#EXTINF:-1, M. Baloncesto - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Baloncesto.png"
+acestream://a54d818f5b5a40f0bcbeff7b125edbfe1e3f4a99
+
+#EXTINF:-1, M. Boxeo - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://8b4f13e7a76c23c3d005c5bbcd899be94562c5de
+
+#EXTINF:-1, M. Boxeo - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://fc88af4e7cd63e2d23a9fc17eb6d8f88c1b6c0c0
+
+#EXTINF:-1, M. Boxeo - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://5155f9c56887e07d5db0b033aad27b1d2c8d6633
+
+#EXTINF:-1, M. Boxeo - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Boxeo.png"
+acestream://78b3b4cbb1f572ab3d33e9c5ed12fcb2c6db8c72
+
+#EXTINF:-1, M. Rugby - 1080p MultiAudio (Opción 1), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Rugby.png"
+acestream://d1c95d391cd3b03664e3e5ed2a2d47a35aa0a468
+
+#EXTINF:-1, M. Rugby - 1080p MultiAudio (Opción 2), tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Rugby.png"
+acestream://50e579b5b7a72d3827c3c5077a8f6de1f5a60a09
+
+#EXTINF:-1, M. Rugby - 1080p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Rugby.png"
+acestream://2f51d0547df7b81cc1e8b23f4cddaf74e35a29c5
+
+#EXTINF:-1, M. Rugby - 720p, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/Rugby.png"
+acestream://e97047fa5f6a3d8652c623eb9c74781de794c4e2
+
