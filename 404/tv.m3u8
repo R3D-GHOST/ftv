@@ -4,11 +4,17 @@
 #EXTINF:-1, ES DAZN FORMULA 1 HD, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/DAZN_F1_logo.png"
 http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts
 
+#EXTINF:-1 xui-id="110220" tvg-id="DAZN F1" tvg-name="* F|1| BAR FHD™" tvg-logo="http://daleplay.club:8080/images/e725fbfec07bf421d8d82dc3849d0200.png" group-title="ZONA | *FØRMULA 1",* F|1| BAR FHD™
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwBcVocM1HoK5ZcY1wj9-1e7b6kcpjC_u2nBrPHGhz-6T/m3u8
+
+
 #EXTINF:-1, MOTOGP HD ,tvg-logo="https://w7.pngwing.com/pngs/713/255/png-transparent-moto-gp-hd-logo-thumbnail.png"
 http://628102028954228385.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228385.ts
 
 #EXTINF:-1, MOTOGP SD ,tvg-logo="https://w7.pngwing.com/pngs/713/255/png-transparent-moto-gp-hd-logo-thumbnail.png"
 http://628102028954228384.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228384.ts
+
+
 
 #EXTGRP:CHAMPIONSLEAGUE
 #EXTINF:-1, ES Movistar Liga De Campeones HD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
@@ -92,6 +98,10 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/44375
 #EXTINF:-1,ES Movistar Originales ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuXVk7BwqyGAZGTXOXfDBGwd9pS_0tmUBkOw&s"
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2146
 
+#EXTINF:-1 xui-id="313121" tvg-id="" tvg-name="M. ESTRENOS HD" tvg-logo="http://www.movistarplus.es/recorte/m-DPBLAN/wpmos/CPCOME" group-title="ES | MØVISTÅR Y ALQUILLER⭐",M. ESTRENOS HD
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwEn5cBnRupYz54EJ9UQCIxx4FbkhOf-q1tftyMWM0vlJ/m3u8
+
+
 
 #EXTGRP:DAZN 
 #EXTINF:-1, ES M DAZN 1 HD ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"
@@ -109,6 +119,23 @@ http://628102028954228393.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228393.ts
 
 #EXTINF:-1, ES M DAZN 4 FHD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN4.png"
 http://628102028954228397.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228397.ts
+#EXTINF:-1 xui-id="110224" tvg-id="DAZN 1" tvg-name="D@ZN M+ 1 FHD." tvg-logo="https://i.postimg.cc/xdKG6V1v/DAZN.png" group-title="ZONA |*DÅZN",D@ZN M+ 1 FHD.
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwBcVocM1HoK5ZcY1wj9-1e73TAplNp5rasVGnHrMTjeH/m3u8
+#EXTINF:-1 xui-id="110225" tvg-id="DAZN 1" tvg-name="D@ZN M+ 1 HD" tvg-logo="" group-title="ZONA |*DÅZN",D@ZN M+ 1 HD
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwBcVocM1HoK5ZcY1wj9-1e7gooflIXbCWRhaufk547bo/m3u8
+#EXTINF:-1 xui-id="110226" tvg-id="DAZN 2" tvg-name="D@ZN M+ 2 HD" tvg-logo="https://i.postimg.cc/xdKG6V1v/DAZN.png" group-title="ZONA |*DÅZN",D@ZN M+ 2 HD
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwBcVocM1HoK5ZcY1wj9-1e5cNcOYEkF0OcxRm92lpBkH/m3u8
+#EXTINF:-1 xui-id="110228" tvg-id="" tvg-name="D@ZN M+ 2 FHD." tvg-logo="https://i.postimg.cc/xdKG6V1v/DAZN.png" group-title="ZONA |*DÅZN",D@ZN M+ 2 FHD.
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwBcVocM1HoK5ZcY1wj9-1e4MOXtKOxNkJujxHAyGfMIt/m3u8
+#EXTINF:-1 xui-id="110229" tvg-id="DAZN 3" tvg-name="D@ZN M+ 3 HD." tvg-logo="https://i.postimg.cc/xdKG6V1v/DAZN.png" group-title="ZONA |*DÅZN",D@ZN M+ 3 HD.
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwBcVocM1HoK5ZcY1wj9-1e6-6PbVINeOY1Q8OtWguJOZ/m3u8
+#EXTINF:-1 xui-id="110230" tvg-id="" tvg-name="D@ZN M+ 3 FHD" tvg-logo="https://i.postimg.cc/xdKG6V1v/DAZN.png" group-title="ZONA |*DÅZN",D@ZN M+ 3 FHD
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwOJe3jczlnKinBs70b6ZctfWHI0rj-UjQzfIpRAQjhEO/m3u8
+#EXTINF:-1 xui-id="110231" tvg-id="" tvg-name="D@ZN M+ 4 HD" tvg-logo="https://i.postimg.cc/xdKG6V1v/DAZN.png" group-title="ZONA |*DÅZN",D@ZN M+ 4 HD
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwOJe3jczlnKinBs70b6ZcteBwvX8KRvSXHFIfYkkF8Hu/m3u8
+#EXTINF:-1 xui-id="110232" tvg-id="DAZN 1" tvg-name="D@ZN M+ 1 SD" tvg-logo="https://i.postimg.cc/xdKG6V1v/DAZN.png" group-title="ZONA |*DÅZN",D@ZN M+ 1 SD
+http://p2premium.club:80/play/pB0ZyDJkzJEF9egSH5giwOJe3jczlnKinBs70b6ZctfO2Y35buq5hP8AZPrioCVS/m3u8
+
 
 
 #EXTGRP:TOROS
