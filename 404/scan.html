@@ -46,12 +46,12 @@
 
         /* Estilos para los canales */
         .channel {
-            display: flex;
+            display: inline-flex; /* Cambiado a inline-flex para mantenerlos en línea */
             align-items: center;
             padding: 10px;
             border: 1px solid #444;
             border-radius: 5px;
-            width: 250px;
+            width: auto; /* Ajustar el ancho automáticamente */
             cursor: pointer;
             transition: background-color 0.3s;
             background-color: #333;
@@ -267,13 +267,14 @@
         // Función para cargar más canales
         loadMoreBtn.onclick = displayChannels;
 
-        // Reproducir canal usando el reproductor por defecto de Android o el reproductor de AppCreator24
+        // Reproducir canal usando el reproductor por defecto de Android
         function playChannel(url) {
             if (isAndroid) {
-                window.open(url, '_blank'); // Abre el enlace en el reproductor por defecto
+                const intent = `intent://${url}#Intent;scheme=http;package=com.android.videos;end`;
+                window.open(intent, '_blank');
             } else {
-                // Usa el reproductor de AppCreator24
-                window.open(`https://appcreator24.com/player/?url=${url}`, '_blank');
+                // Usar un iframe o el reproductor de su elección
+                window.open(url, '_blank');
             }
         }
 
@@ -281,41 +282,24 @@
         function focusChannel(index) {
             const channels = document.querySelectorAll('.channel');
             if (channels.length > 0) {
-                channels[index].focus();
-                currentFocusIndex = index; // Actualiza el índice de enfoque
+                channels[currentFocusIndex]?.classList.remove('focused');
+                currentFocusIndex = index;
+                channels[currentFocusIndex]?.classList.add('focused');
+                channels[currentFocusIndex]?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }
         }
 
-        // Manejar las teclas de flecha para la navegación
+        // Navegación con teclado
         document.addEventListener('keydown', (e) => {
-            const channels = document.querySelectorAll('.channel');
             if (e.key === 'ArrowDown') {
-                if (currentFocusIndex < channels.length - 1) {
-                    focusChannel(currentFocusIndex + 1);
-                }
+                focusChannel((currentFocusIndex + 1) % displayedChannels.length);
             } else if (e.key === 'ArrowUp') {
-                if (currentFocusIndex > 0) {
-                    focusChannel(currentFocusIndex - 1);
-                }
-            } else if (e.key === 'ArrowLeft') {
-                // Desplazarse a la izquierda en los grupos
-                const groups = document.querySelectorAll('.group');
-                if (currentFocusIndex > 0) {
-                    focusGroup(currentFocusIndex - 1);
-                }
-            } else if (e.key === 'ArrowRight') {
-                // Desplazarse a la derecha en los grupos
-                const groups = document.querySelectorAll('.group');
-                if (currentFocusIndex < groups.length - 1) {
-                    focusGroup(currentFocusIndex + 1);
-                }
+                focusChannel((currentFocusIndex - 1 + displayedChannels.length) % displayedChannels.length);
             } else if (e.key === 'Enter') {
-                // Reproducir el canal seleccionado
-                if (currentFocusIndex < channels.length) {
-                    playChannel(displayedChannels[currentFocusIndex].url);
-                }
+                playChannel(displayedChannels[currentFocusIndex].url);
             }
         });
+
     </script>
 </body>
 </html>
