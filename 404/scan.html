@@ -20,42 +20,39 @@
             color: #f9a825;
         }
 
-        /* Estilo del contenedor de canales y grupos */
         #channels {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
             margin-bottom: 20px;
-            max-height: 300px; /* Limitar altura del contenedor */
-            overflow-y: auto; /* Habilitar desplazamiento vertical */
+            max-height: 300px;
+            overflow-y: auto;
         }
 
-        /* Estilo de scrollbar minimalista */
         #channels::-webkit-scrollbar {
             width: 6px;
         }
 
         #channels::-webkit-scrollbar-thumb {
-            background: #555; /* Color de la barra */
+            background: #555;
             border-radius: 3px;
         }
 
         #channels::-webkit-scrollbar-thumb:hover {
-            background: #777; /* Color de la barra al pasar el mouse */
+            background: #777;
         }
 
-        /* Estilos para los canales */
         .channel {
-            display: inline-flex; /* Cambiado a inline-flex para mantenerlos en línea */
+            display: inline-flex;
             align-items: center;
             padding: 10px;
             border: 1px solid #444;
             border-radius: 5px;
-            width: auto; /* Ajustar el ancho automáticamente */
+            width: auto;
             cursor: pointer;
             transition: background-color 0.3s;
             background-color: #333;
-            outline: none; /* Para enfoque visual */
+            outline: none;
         }
 
         .channel:hover, .channel:focus {
@@ -74,7 +71,6 @@
             font-size: 16px;
         }
 
-        /* Estilos para los grupos en slider */
         #groups {
             display: flex;
             overflow-x: auto;
@@ -83,18 +79,17 @@
             margin-bottom: 20px;
         }
 
-        /* Estilo de scrollbar minimalista para grupos */
         #groups::-webkit-scrollbar {
             height: 6px;
         }
 
         #groups::-webkit-scrollbar-thumb {
-            background: #555; /* Color de la barra */
+            background: #555;
             border-radius: 3px;
         }
 
         #groups::-webkit-scrollbar-thumb:hover {
-            background: #777; /* Color de la barra al pasar el mouse */
+            background: #777;
         }
 
         .group {
@@ -105,14 +100,13 @@
             cursor: pointer;
             transition: background-color 0.3s;
             white-space: nowrap;
-            outline: none; /* Para enfoque visual */
+            outline: none;
         }
 
         .group:hover, .group:focus {
             background-color: #ffcc00;
         }
 
-        /* Estilos para el buscador */
         #search {
             width: 100%;
             padding: 10px;
@@ -124,7 +118,6 @@
             color: #fff;
         }
 
-        /* Estilos para el botón de cargar más */
         #loadMoreBtn {
             display: inline-block;
             padding: 10px 20px;
@@ -141,7 +134,6 @@
             background-color: #ffcc00;
         }
 
-        /* Responsividad */
         @media (max-width: 768px) {
             #channels {
                 flex-direction: column;
@@ -165,7 +157,6 @@
     <button id="loadMoreBtn">Load More Channels</button>
 
     <script>
-        // Variables globales
         let channels = [];
         let displayedChannels = [];
         let currentChannelIndex = 0;
@@ -174,7 +165,7 @@
         const searchInput = document.getElementById('search');
         const loadMoreBtn = document.getElementById('loadMoreBtn');
         const groupsContainer = document.getElementById('groups');
-        let currentFocusIndex = 0; // Índice para controlar el enfoque de los canales
+        let currentFocusIndex = 0;
 
         // Detectar el sistema operativo
         const isAndroid = navigator.userAgent.toLowerCase().includes('android');
@@ -186,10 +177,9 @@
                 parseM3U8(data);
                 displayChannels();
                 displayGroups();
-                focusChannel(0); // Establecer el enfoque en el primer canal
+                focusChannel(0);
             });
 
-        // Función para parsear el archivo M3U8
         function parseM3U8(data) {
             const lines = data.split('\n');
             lines.forEach((line, index) => {
@@ -199,10 +189,9 @@
                     channels.push({ ...channelInfo, url });
                 }
             });
-            displayedChannels = [...channels];  // Por defecto, muestra todos los canales
+            displayedChannels = [...channels];
         }
 
-        // Función para parsear la información del canal
         function parseChannelInfo(line) {
             const name = line.split(',')[1];
             const logo = line.includes('tvg-logo') ? line.split('tvg-logo="')[1].split('"')[0] : '';
@@ -210,7 +199,6 @@
             return { name, logo, group };
         }
 
-        // Mostrar los primeros canales
         function displayChannels() {
             const fragment = document.createDocumentFragment();
             const endIndex = Math.min(currentChannelIndex + channelsPerPage, displayedChannels.length);
@@ -219,7 +207,7 @@
                 const channel = displayedChannels[i];
                 const div = document.createElement('div');
                 div.className = 'channel';
-                div.tabIndex = 0; // Hacer que el canal sea accesible con tabulador
+                div.tabIndex = 0;
                 div.innerHTML = `<img src="${channel.logo}" alt="${channel.name}"> <div>${channel.name}</div>`;
                 div.onclick = () => playChannel(channel.url);
                 fragment.appendChild(div);
@@ -227,27 +215,21 @@
             currentChannelIndex = endIndex;
             channelContainer.appendChild(fragment);
 
-            if (currentChannelIndex >= displayedChannels.length) {
-                loadMoreBtn.style.display = 'none';
-            } else {
-                loadMoreBtn.style.display = 'inline-block';
-            }
+            loadMoreBtn.style.display = currentChannelIndex >= displayedChannels.length ? 'none' : 'inline-block';
         }
 
-        // Mostrar los grupos como slider
         function displayGroups() {
             const groups = [...new Set(channels.map(channel => channel.group))];
             groups.forEach(group => {
                 const div = document.createElement('div');
                 div.className = 'group';
-                div.tabIndex = 0; // Hacer que los grupos sean accesibles con tabulador
+                div.tabIndex = 0;
                 div.innerHTML = group;
                 div.onclick = () => filterByGroup(group);
                 groupsContainer.appendChild(div);
             });
         }
 
-        // Filtrar canales por grupo
         function filterByGroup(group) {
             currentChannelIndex = 0;
             channelContainer.innerHTML = '';
@@ -255,7 +237,6 @@
             displayChannels();
         }
 
-        // Filtrar canales por búsqueda
         searchInput.addEventListener('input', () => {
             const searchTerm = searchInput.value.toLowerCase();
             channelContainer.innerHTML = '';
@@ -264,21 +245,18 @@
             displayChannels();
         });
 
-        // Función para cargar más canales
         loadMoreBtn.onclick = displayChannels;
 
         // Reproducir canal usando el reproductor por defecto de Android
         function playChannel(url) {
             if (isAndroid) {
-                const intent = `intent://${url}#Intent;scheme=http;package=com.android.videos;end`;
+                const intent = `intent://${url}#Intent;scheme=http;package=com.android.videos;end`; // Cambia el package a tu reproductor deseado
                 window.open(intent, '_blank');
             } else {
-                // Usar un iframe o el reproductor de su elección
-                window.open(url, '_blank');
+                window.open(url, '_blank'); // Abrir en navegador si no es Android
             }
         }
 
-        // Función para enfocar el canal seleccionado
         function focusChannel(index) {
             const channels = document.querySelectorAll('.channel');
             if (channels.length > 0) {
@@ -289,7 +267,6 @@
             }
         }
 
-        // Navegación con teclado
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowDown') {
                 focusChannel((currentFocusIndex + 1) % displayedChannels.length);
