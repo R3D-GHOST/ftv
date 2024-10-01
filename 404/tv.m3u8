@@ -1,4 +1,97 @@
 
+#EXTM3U
+#EXTGRP:MOTOR
+#EXTINF:-1, ES DAZN FORMULA 1 HD, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/DAZN_F1_logo.png"
+http://628102028954165419.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165419.ts
+
+#EXTINF:-1, MOTOGP HD ,tvg-logo="https://w7.pngwing.com/pngs/713/255/png-transparent-moto-gp-hd-logo-thumbnail.png"
+http://628102028954228385.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228385.ts
+
+#EXTINF:-1, MOTOGP SD ,tvg-logo="https://w7.pngwing.com/pngs/713/255/png-transparent-moto-gp-hd-logo-thumbnail.png"
+http://628102028954228384.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/228384.ts
+
+#EXTGRP:CHAMPIONSLEAGUE
+#EXTINF:-1, ES Movistar Liga De Campeones HD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2800
+
+#EXTINF:-1, ES Movistar Liga De Campeones SD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
+http://628102028954165359.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165359.ts
+
+#EXTINF:-1, ES Movistar Liga De Campeones FHD , tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"
+http://628102028954246282.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/246282.ts
+
+#EXTGRP:LALIGA
+#EXTINF:-1, ES  LaLiga TV BAR,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBm53RPDi6Lkpv_3sKQZsbtMdkTG4wvsHRhQ&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
+
+#EXTINF:-1, ES  M LALIGA SMARTBANK HD  ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWPnQFHFmpHPX0u_N6j2zxqoueK0OPTVmhg&s"
+http://628102028954320786.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320786.ts
+
+#EXTINF:-1, ES  M LALIGA SMARTBANK SD  ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWPnQFHFmpHPX0u_N6j2zxqoueK0OPTVmhg&s"
+http://628102028954320789.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320789.ts
+
+#EXTINF:-1, ES Movistar LaLiga ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/197711
+
+
+#EXTINF:-1, ES Movistar LaLiga 2 ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"
+http://628102028954165398.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165398.ts
+
+
+#EXTINF:-1, ES LaLiga TV Hypermotion , tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/LaLiga_Hypermotion_2023_Vertical_Logo.svg/1200px-LaLiga_Hypermotion_2023_Vertical_Logo.svg.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/300830
+
+#EXTINF:-1, ES DAZN LALIGA HD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
+http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts
+
+
+#EXTINF:-1, ES DAZN LALIGA SD, tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"
+http://628102028954320792.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320792.ts
+
+#EXTINF:-1, ES DAZN LALIGA 2 HD, tvg-logo="https://i0.wp.com/jungle-team.com/wp-content/uploads/2022/07/dazn-laliga-2.png?fit=440%2C264&ssl=1"
+http://628102028954320780.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320780.ts
+
+
+
+#EXTGRP:MOVISTAR
+#EXTINF:-1, ES Movistar+ ,tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Movistar%2B_Logo.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/8994
+
+#EXTINF:-1,ES Movistar Cine Espanol, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTByjxemPCNeiMhw_KJkRlADIs8Ku2yvZVO9A&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/64788
+
+
+#EXTINF:-1, ES Movistar Golf, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/1200px-Movistar_Golf.svg.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1142
+
+#EXTINF:-1, ES Movistar Series, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBooxElj3D_60ylTNA2NjEz6tRAJ-up2AX5w&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1140
+
+#EXTINF:-1, ES Movistar Clasicos, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Movistar-Cl%C3%A1sicos.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/281773
+
+#EXTINF:-1, ES Movistar Accion, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQpf3bK8lcZBW6dNMJs5kZ2o-4mpMEdmUXQ&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1148
+
+
+#EXTINF:-1,ES Movistar Vamos, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Vamos_por_Movistar_Plus%2B_2023_Logo.svg/1280px-Vamos_por_Movistar_Plus%2B_2023_Logo.svg.png"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/300836
+
+
+#EXTINF:-1,ES Movistar La Resistencia ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfPzOL2eI_RIzMJVOLzXwRC2c40F1wOjazDA&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/286800
+
+
+#EXTINF:-1,Movistar Deportes HD ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSALZ31CSIyN4JwWpMwCiyFw_3-zY_hdxuQQ&s"
+http://190.61.55.186:1010/play/a00q/index.m3u8
+
+#EXTINF:-1,Movistar Deportes 2 ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSALZ31CSIyN4JwWpMwCiyFw_3-zY_hdxuQQ&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/44375
+
+
+#EXTINF:-1,ES Movistar Originales ,tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuXVk7BwqyGAZGTXOXfDBGwd9pS_0tmUBkOw&s"
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/2146
+
 
 #EXTGRP:DAZN 
 #EXTINF:-1, ES M DAZN 1 HD ,tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"
@@ -28,6 +121,7 @@ http://628102028954321449.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/321449.ts
 
 #EXTINF:-1, ES ONETORO FHD, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk_0uSCZ0xNsRXOROPxNc1ZOTZ_YjdSa3vMA&s"
 http://628102028954321445.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/321445.ts
+
 
 
 #EXTM3U @LaQuay https://github.com/LaQuay/TDTChannels
