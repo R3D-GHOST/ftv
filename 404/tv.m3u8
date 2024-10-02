@@ -122,6 +122,12 @@ http://628102028954321449.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/321449.ts
 #EXTINF:-1, ES ONETORO FHD, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk_0uSCZ0xNsRXOROPxNc1ZOTZ_YjdSa3vMA&s"
 http://628102028954321445.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/321445.ts
 
+#EXTINF:-1, ES FDF, tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3s_i6RSW_V5Cc7p1TRcnF3J-9Bp2XlZxWDg&s"
+http://809966420416875644.ofkp0923.xyz:80/live/PAU240716/ERT5124/875644.ts
+
+#EXTINF:-1, ES TELECINCO, tvg-logo="https://miguia.tv/channels/big_161.png"
+http://809966420416321430.ofkp0923.xyz:80/live/PAU240716/ERT5124/321430.ts
+
 
 
 #EXTM3U @LaQuay https://github.com/LaQuay/TDTChannels
