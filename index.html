@@ -8,26 +8,26 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Roboto', sans-serif;
-            background: radial-gradient(circle, #1f1c2c, #928dab);
-            color: #fff;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #3a6073, #3a4750);
+            color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            text-align: center;
             overflow: hidden;
         }
 
         .container {
-            text-align: center;
-            animation: fadeIn 2s ease;
+            animation: fadeIn 1.5s ease;
         }
 
         h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
             text-transform: uppercase;
-            background: linear-gradient(to right, #00f260, #0575e6);
+            background: linear-gradient(to right, #f12711, #f5af19);
             -webkit-background-clip: text;
             color: transparent;
             animation: floatText 3s infinite ease-in-out;
@@ -35,33 +35,32 @@
 
         .btn {
             display: inline-block;
-            padding: 15px 40px;
-            font-size: 1.2rem;
+            padding: 15px 30px;
+            font-size: 1.1rem;
             color: #fff;
-            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            background: #4CAF50;
             border: none;
             border-radius: 50px;
             text-transform: uppercase;
             text-decoration: none;
-            letter-spacing: 1px;
-            box-shadow: 0 10px 20px rgba(255, 65, 108, 0.4);
-            transition: all 0.4s ease;
+            margin: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         .btn:hover {
-            background: linear-gradient(135deg, #ff4b2b, #ff416c);
-            box-shadow: 0 20px 40px rgba(255, 65, 108, 0.6);
-            transform: translateY(-10px) scale(1.05);
+            background: #45a049;
+            transform: translateY(-3px);
         }
 
         .btn:active {
-            transform: translateY(2px);
+            transform: translateY(1px);
         }
 
         @keyframes fadeIn {
             0% {
                 opacity: 0;
-                transform: scale(0.9);
+                transform: scale(0.8);
             }
             100% {
                 opacity: 1;
@@ -69,57 +68,35 @@
             }
         }
 
-        /* Efecto flotante para el título */
         @keyframes floatText {
             0%, 100% {
                 transform: translateY(0);
             }
             50% {
-                transform: translateY(-20px);
+                transform: translateY(-10px);
             }
         }
 
-        /* Estilo moderno para la descripción */
         .description {
             font-size: 1.2rem;
             color: #e0e0e0;
-            line-height: 1.5;
             margin: 20px 0;
         }
 
         .info {
             font-size: 0.9rem;
-            color: #aaa;
+            color: #ccc;
             margin-top: 20px;
         }
-
-        /* Efecto de borde iluminado en el título */
-        .neon-border {
-            display: inline-block;
-            padding: 10px 20px;
-            border: 2px solid;
-            animation: glow 2s infinite alternate;
-            border-radius: 400px;
-
-        }
-
-        @keyframes glow {
-            0% {
-                box-shadow: 0 0 10px #0575e6, 0 0 20px #00f260;
-            }
-            100% {
-                box-shadow: 0 0 20px #0575e6, 0 0 40px #00f260;
-            }
-        }
-
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1 class="neon-border">EL VAR apk</h1>
+        <h1>EL VAR apk</h1>
         <p class="description">Descarga nuestra aplicación para acceder a TV en alta calidad. Compatible con todos los dispositivos Android.</p>
         <a href="https://apk.e-droid.net/apk/app3307381-8u13tr.apk?v=8" class="btn">Descargar APK</a>
+        <a href="https://drive.usercontent.google.com/download?id=1ucAjPLnnMgMOD4tj4fjKtTInue5-6fxh&export=download&authuser=0" class="btn">Descargar AceStream</a>
         <p class="info">Versión 1.0.0 - Última actualización: Octubre 2024</p>
     </div>
 
