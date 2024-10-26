@@ -1,6 +1,17 @@
-#EXTINF:-1, DAZN LA LIGA HD
-http://628102028954320782.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320782.ts?checkedby:iptvlister.com
+#EXTM3U
+#EXTINF:-1, La Liga de Campeones
+acestream://931b1984badcb821df7b47a66ac0835ac871b51c
+#EXTINF:-1, Movistar La Liga
+acestream://f031f5728b32f6089dda28edebe990cf198108d8
+#EXTINF:-1, La Liga Hypermotion
+acestream://4c46585214b23b1d802ef2168060c7649a3894cf
+#EXTINF:-1, DAZN La Liga
+acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914
+#EXTINF:-1, DAZN 1
+acestream://eaff9293c76a324c750ef5094c2a4e2c96518d1f
+#EXTINF:-1, DAZN Formula 1
+acestream://9dad717d99b29a05672166258a77c25b57713dd5
+#EXTINF:-1, Movistar Deportes
+acestream://d00223931b1854163e24c5c22475015d7d45c112
 
 
-#EXTINF:-1, ES DAZN FORMULA 1 FHD iptvlister.com
-http://628102028954165418.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165418.ts?checkedby:iptvlister.com
