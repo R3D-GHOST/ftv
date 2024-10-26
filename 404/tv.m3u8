@@ -1,12 +1,18 @@
 #EXTM3U
 #EXTINF:-1, La Liga de Campeones
 acestream://931b1984badcb821df7b47a66ac0835ac871b51c
+#EXTINF:-1, La Liga de Campeones 2
+6753492c1908274c268a1b28e2a054a0ff8f86f9
 #EXTINF:-1, Movistar La Liga
 acestream://f031f5728b32f6089dda28edebe990cf198108d8
+#EXTINF:-1, Movistar La Liga 2
+f031f5728b32f6089dda28edebe990cf198108d8
 #EXTINF:-1, La Liga Hypermotion
 acestream://4c46585214b23b1d802ef2168060c7649a3894cf
 #EXTINF:-1, DAZN La Liga
 acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914
+#EXTINF:-1, DAZN La Liga 2
+02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
 #EXTINF:-1, DAZN 1
 d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151
 #EXTINF:-1, DAZN 2
@@ -21,4 +27,5 @@ acestream://9dad717d99b29a05672166258a77c25b57713dd5
 acestream://d00223931b1854163e24c5c22475015d7d45c112
 #EXTINF:-1, UFC
 2d4b53402ff6158ec5aa4b38a80a773b5e00da0d
-
+#EXTINF:-1, La Liga BAR TV
+aa82e7d4f03061f2144a2f4be22f2e2210d42280
