@@ -202,7 +202,7 @@
         function displayCategories(channels) {
             const carouselInner = document.getElementById('carousel-inner');
             const categories = [...new Set(channels.map(channel => channel.info))];
-            const itemsPerSlide = 4; // Mostrar 4 categorías por diapositiva
+            const itemsPerSlide = 4;
 
             for (let i = 0; i < categories.length; i += itemsPerSlide) {
                 const carouselItem = document.createElement('div');
@@ -251,7 +251,8 @@
         }
 
         function playChannel(url) {
-            const isAceStream = url.startsWith('acestream://');
+            const isAceStream = url.startsWith('acestream://') || url.endsWith('.m3u8') || url.endsWith('.m3u');
+
             const modal = document.createElement('div');
             modal.style.cssText = `
                 position: fixed;
@@ -274,15 +275,7 @@
                         Abrir en AceStream
                     </button>
                 ` : `
-                    <p>Elige un reproductor externo:</p>
-                    <button onclick="openVLC('${url}')" 
-                            style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
-                        Abrir en VLC
-                    </button>
-                    <button onclick="openPlayer('${url}')" 
-                            style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
-                        Abrir en otro reproductor
-                    </button>
+                    <p>Este enlace no es compatible.</p>
                 `}
                 <button onclick="this.parentElement.remove()" 
                         style="background: #666; border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
@@ -297,24 +290,13 @@
             window.open(url); // Abre el enlace AceStream en una nueva pestaña
         }
 
-        function openVLC(url) {
-            const vlcUrl = `vlc://${url}`; // Cambia la URL para que VLC lo reconozca
-            window.open(vlcUrl); // Abre la URL en VLC
-        }
-
-        function openPlayer(url) {
-            // Aquí puedes personalizar cómo abrir otro reproductor, por ejemplo, mostrando una nueva opción o simplemente abriendo un enlace.
-            alert("Selecciona un reproductor externo para abrir el enlace.");
-            // Puedes agregar más lógica para manejar diferentes reproductores.
-        }
-
         async function loadChannels() {
             try {
                 const response = await fetch('https://r3d-ghost.github.io/ftv/404/tv.m3u8');
                 const data = await response.text();
                 const channels = parseM3U8(data);
-                displayCategories(channels);  // Mostrar botones de categorías
-                displayChannels(channels);     // Mostrar todos los canales inicialmente
+                displayCategories(channels);
+                displayChannels(channels);
             } catch (error) {
                 console.error('Error cargando canales:', error);
                 const channelList = document.getElementById('channel-list');
