@@ -38,7 +38,11 @@ acestream://5e4cd48c79f991fcbee2de8b9d30c4b16de3b952
 #EXTINF:-1, EuroSport 2
 c373da9e901d414b7384e671112e64d5a2310c29
 #EXTINF:-1, Movistar +
-
+acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
+#EXTINF:-1, NBA TV
+e72d03fb9694164317260f684470be9ab781ed95
+#EXTINF:-1, #Vamos
+3bba7c95857c2502c7e03ced1a6a9b00eb567fa0
 
 
 #EXTM3U @LaQuay https://github.com/LaQuay/TDTChannels
@@ -1218,9 +1222,3 @@ https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
 https://3abn-live.akamaized.net/hls/live/2010547/Latino/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/3abn.org/picture?width=200&height=200" group-title="Religiosos" tvg-name="3ABN USA",3ABN USA EN
 https://3abn-live.akamaized.net/hls/live/2010543/3ABN/master.m3u8
-
-acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
-#EXTINF:-1, NBA TV
-e72d03fb9694164317260f684470be9ab781ed95
-#EXTINF:-1, #Vamos
-3bba7c95857c2502c7e03ced1a6a9b00eb567fa0
