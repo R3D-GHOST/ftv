@@ -1,373 +1,308 @@
-<html><head><base href="/">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El VAR TV - Streaming Deportivo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
-    :root {
-        --primary-color: #0a192f;
-        --secondary-color: #00b4d8;
-        --accent-color: #48cae4;
-        --text-color: #caf0f8;
-        --background-gradient: linear-gradient(135deg, var(--primary-color) 0%, #1d3557 100%);
-    }
-    
-    .channel-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 0.5rem;
-}
+        :root {
+            --primary-color: #0a192f;
+            --secondary-color: #00b4d8;
+            --accent-color: #48cae4;
+            --text-color: #caf0f8;
+            --background-gradient: linear-gradient(135deg, var(--primary-color) 0%, #1d3557 100%);
+        }
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: var(--background-gradient);
-        color: var(--text-color);
-        min-height: 100vh;
-    }
-    
-    header {
-        background: rgba(0, 0, 0, 0.8);
-        padding: 1.5rem;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    }
-    
-    header h1 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: var(--secondary-color);
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    }
-    
-    .hero-section {
-        position: relative;
-        height: 50vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: url('https://source.unsplash.com/1600x900/?soccer,sports');
-        background-size: cover;
-        background-position: center;
-        overflow: hidden;
-    }
-    
-    .hero-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.6);
-    }
-    
-    .hero-content {
-        position: relative;
-        text-align: center;
-        z-index: 1;
-    }
-    
-    .channel-list {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 1.5rem;
-        padding: 2rem;
-        max-width: 1400px;
-        margin: 0 auto;
-    }
-    
-    .channel {
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 10px;
-        padding: 1.5rem;
-        transition: all 0.3s ease;
-        backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-    }
-    
-    .channel:hover {
-        transform: translateY(-5px);
-        background: rgba(255, 255, 255, 0.15);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-        border-color: var(--secondary-color);
-    }
-    
-    .channel::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-        transition: 0.5s;
-        transform: translateX(-100%);
-    }
-    
-    .channel:hover::before {
-        transform: translateX(100%);
-    }
-    
-    .channel-title {
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-bottom: 0.5rem;
-        color: var(--accent-color);
-    }
-    
-    .channel-info {
-        font-size: 0.9rem;
-        color: rgba(255, 255, 255, 0.7);
-    }
-    
-    footer {
-        background: rgba(0, 0, 0, 0.8);
-        color: var(--text-color);
-        text-align: center;
-        padding: 1.5rem;
-        margin-top: auto;
-    }
-    
-    /* Animaciones */
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-    
-    .channel {
-        animation: fadeIn 0.5s ease-out forwards;
-    }
-    
-    /* Responsive */
-    @media (max-width: 768px) {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--background-gradient);
+            color: var(--text-color);
+            min-height: 100vh;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+        }
+
         header h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--secondary-color);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
-    
+
         .hero-section {
-            height: 40vh;
+            position: relative;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://source.unsplash.com/1600x900/?soccer,sports');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
         }
-    
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-content {
+            position: relative;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .category-carousel {
+            margin: 2rem 0;
+        }
+
         .channel-list {
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            padding: 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
         }
-    }
-    
-    /* Loading Animation */
-    .loading {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-    }
-    
-    .loading::after {
-        content: '';
-        width: 50px;
-        height: 50px;
-        border: 5px solid #f3f3f3;
-        border-top: 5px solid var(--secondary-color);
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-    }
-    
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
+
+        .channel {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .channel:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            border-color: var(--secondary-color);
+        }
+
+        .channel-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+        }
+
+        .channel-info {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: var(--text-color);
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: auto;
+        }
     </style>
-    </head>
-    <body>
-        <header>
-            <h1><i class="fas fa-tv"></i> EL VAR TV</h1>
-        </header>
-    
-        <div class="hero-section">
-            <div class="hero-content">
-                <h2>Transmisión Deportiva en Vivo</h2>
-                <p>Los mejores eventos deportivos en un solo lugar</p>
-            </div>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-tv"></i> EL VAR TV</h1>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h2>Transmisión Deportiva en Vivo</h2>
+            <p>Los mejores eventos deportivos en un solo lugar</p>
         </div>
-    
-        <main>
-            <div id="channel-list" class="channel-list">
-                <!-- Los canales se cargarán aquí -->
-                <div class="loading"></div>
-            </div>
-        </main>
-    
-        <footer>
-            <p>&copy; 2024 EL VAR TV - Todos los derechos reservados</p>
-            <div class="social-links">
-                <a href="https://twitter.com/elvartv" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://facebook.com/elvartv" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://instagram.com/elvartv" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-        </footer>
-    
-        <script>
-            function parseM3U8(data) {
-    const lines = data.split('\n');
-    const channels = [];
-    let currentChannel = null;
+    </div>
 
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-        
-        if (line.startsWith('#EXTINF:')) {
-            const match = line.match(/,(.+)$/);
-            if (match) {
-                currentChannel = {
-                    title: match[1].trim(),
-                    info: line.match(/group-title="([^"]+)"/) ? line.match(/group-title="([^"]+)"/)[1] : 'General',
-                    image: line.match(/tvg-logo="([^"]+)"/) ? line.match(/tvg-logo="([^"]+)"/)[1] : 'default-image-url.jpg' // Reemplaza por una imagen por defecto si no hay
-                };
-            }
-        } else if (line && !line.startsWith('#') && currentChannel) {
-            currentChannel.url = line;
-            channels.push({...currentChannel});
-            currentChannel = null;
-        }
-    }
-    return channels;
-}
-
-function displayChannels(channels) {
-    channelList.innerHTML = '';
-    channels.forEach((channel, index) => {
-        const channelDiv = document.createElement('div');
-        channelDiv.className = 'channel';
-        channelDiv.style.animationDelay = `${index * 0.1}s`;
-        
-        channelDiv.innerHTML = `
-            <img src="${channel.image}" alt="${channel.title}" class="channel-image">
-            <div class="channel-title">${channel.title}</div>
-            <div class="channel-info">${channel.info}</div>
-            <div class="channel-icon">
-                <i class="fas fa-play-circle"></i>
+    <main>
+        <div id="category-carousel" class="category-carousel carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-inner">
+                <!-- Aquí se llenarán las categorías -->
             </div>
-        `;
-        
-        channelDiv.onclick = () => playChannel(channel.url);
-        channelList.appendChild(channelDiv);
-    });
-}
+            <button class="carousel-control-prev" type="button" data-bs-target="#category-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#category-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
 
-            const channelList = document.getElementById('channel-list');
-    
-            async function loadChannels() {
-                try {
-                    const response = await fetch('https://r3d-ghost.github.io/ftv/404/tv.m3u8');
-                    const data = await response.text();
-                    const channels = parseM3U8(data);
-                    displayChannels(channels);
-                } catch (error) {
-                    console.error('Error cargando canales:', error);
-                    channelList.innerHTML = `
-                        <div class="error-message">
-                            <i class="fas fa-exclamation-circle"></i>
-                            <p>Error al cargar los canales. Por favor, intente más tarde.</p>
-                        </div>
-                    `;
+        <div id="channel-list" class="channel-list">
+            <div class="loading"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EL VAR TV - Todos los derechos reservados</p>
+        <div class="social-links">
+            <a href="https://twitter.com/elvartv" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://facebook.com/elvartv" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/elvartv" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function parseM3U8(data) {
+            const lines = data.split('\n');
+            const channels = [];
+            let currentChannel = null;
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                if (line.startsWith('#EXTINF:')) {
+                    const match = line.match(/,(.+)$/);
+                    if (match) {
+                        currentChannel = {
+                            title: match[1].trim(),
+                            info: line.match(/group-title="([^"]+)"/) ? line.match(/group-title="([^"]+)"/)[1] : 'General',
+                            url: null
+                        };
+                    }
+                } else if (line && !line.startsWith('#') && currentChannel) {
+                    currentChannel.url = line;
+                    channels.push({...currentChannel});
+                    currentChannel = null;
                 }
             }
-    
-            function parseM3U8(data) {
-                const lines = data.split('\n');
-                const channels = [];
-                let currentChannel = null;
-    
-                for (let i = 0; i < lines.length; i++) {
-                    const line = lines[i].trim();
-                    
-                    if (line.startsWith('#EXTINF:')) {
-                        const match = line.match(/,(.+)$/);
-                        if (match) {
-                            currentChannel = {
-                                title: match[1].trim(),
-                                info: line.match(/group-title="([^"]+)"/) ? line.match(/group-title="([^"]+)"/)[1] : 'General'
-                            };
-                        }
-                    } else if (line && !line.startsWith('#') && currentChannel) {
-                        currentChannel.url = line;
-                        channels.push({...currentChannel});
-                        currentChannel = null;
+            return channels;
+        }
+
+        function displayCategories(channels) {
+            const carouselInner = document.getElementById('carousel-inner');
+            const categories = [...new Set(channels.map(channel => channel.info))];
+            const itemsPerSlide = 4; // Mostrar 4 categorías por diapositiva
+
+            for (let i = 0; i < categories.length; i += itemsPerSlide) {
+                const carouselItem = document.createElement('div');
+                carouselItem.className = 'carousel-item' + (i === 0 ? ' active' : '');
+                const categoryButtons = document.createElement('div');
+                categoryButtons.className = 'd-flex justify-content-center flex-wrap';
+
+                for (let j = 0; j < itemsPerSlide; j++) {
+                    if (i + j < categories.length) {
+                        const category = categories[i + j];
+                        const button = document.createElement('button');
+                        button.className = 'btn btn-primary m-2';
+                        button.innerText = category;
+                        button.onclick = () => filterChannelsByCategory(category, channels);
+                        categoryButtons.appendChild(button);
                     }
                 }
-                return channels;
-            }
-    
-            function displayChannels(channels) {
-                channelList.innerHTML = '';
-                channels.forEach((channel, index) => {
-                    const channelDiv = document.createElement('div');
-                    channelDiv.className = 'channel';
-                    channelDiv.style.animationDelay = `${index * 0.1}s`;
-                    
-                    channelDiv.innerHTML = `
-                        <div class="channel-title">${channel.title}</div>
-                        <div class="channel-info">${channel.info}</div>
-                        <div class="channel-icon">
-                            <i class="fas fa-play-circle"></i>
-                        </div>
-                    `;
-                    
-                    channelDiv.onclick = () => playChannel(channel.url);
-                    channelList.appendChild(channelDiv);
-                });
-            }
-    
-            function playChannel(url) {
-                const playerUrl = url.startsWith('acestream://') ? url : `acestream://${url}`;
                 
-                const modal = document.createElement('div');
-                modal.style.cssText = `
-                    position: fixed;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    background: rgba(0, 0, 0, 0.9);
-                    padding: 20px;
-                    border-radius: 10px;
-                    z-index: 1000;
-                    text-align: center;
+                carouselItem.appendChild(categoryButtons);
+                carouselInner.appendChild(carouselItem);
+            }
+        }
+
+        function filterChannelsByCategory(category, channels) {
+            const filteredChannels = channels.filter(channel => channel.info === category);
+            displayChannels(filteredChannels);
+        }
+
+        function displayChannels(channels) {
+            const channelList = document.getElementById('channel-list');
+            channelList.innerHTML = '';
+            
+            channels.forEach((channel, index) => {
+                const channelDiv = document.createElement('div');
+                channelDiv.className = 'channel';
+                channelDiv.style.animationDelay = `${index * 0.1}s`;
+                
+                channelDiv.innerHTML = `
+                    <div class="channel-title">${channel.title}</div>
+                    <div class="channel-info">${channel.info}</div>
                 `;
                 
-                modal.innerHTML = `
-                    <h3>Abrir Canal</h3>
-                    <p>¿Deseas abrir este canal con AceStream?</p>
-                    <button onclick="window.open('${playerUrl}', '_blank'); this.parentElement.remove();" 
-                            style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
-                        Abrir Canal
-                    </button>
-                    <button onclick="this.parentElement.remove()" 
-                            style="background: #666; border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
-                        Cancelar
-                    </button>
+                channelDiv.onclick = () => playChannel(channel.url);
+                channelList.appendChild(channelDiv);
+            });
+        }
+
+        function playChannel(url) {
+            let playerUrl = url.startsWith('acestream://') ? url : `acestream://${url}`;
+            
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: rgba(0, 0, 0, 0.9);
+                padding: 20px;
+                border-radius: 10px;
+                z-index: 1000;
+                text-align: center;
+            `;
+            
+            modal.innerHTML = `
+                <h3>Abrir Canal</h3>
+                <p>¿Deseas abrir este canal con AceStream?</p>
+                <button onclick="window.open('${playerUrl}', '_blank'); this.parentElement.remove();" 
+                        style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
+                    Abrir Canal
+                </button>
+                <button onclick="this.parentElement.remove()" 
+                        style="background: #666; border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
+                    Cancelar
+                </button>
+            `;
+            
+            document.body.appendChild(modal);
+        }
+
+        async function loadChannels() {
+            try {
+                const response = await fetch('https://r3d-ghost.github.io/ftv/404/tv.m3u8');
+                const data = await response.text();
+                const channels = parseM3U8(data);
+                displayCategories(channels);  // Mostrar botones de categorías
+                displayChannels(channels);     // Mostrar todos los canales inicialmente
+            } catch (error) {
+                console.error('Error cargando canales:', error);
+                const channelList = document.getElementById('channel-list');
+                channelList.innerHTML = `
+                    <div class="error-message">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>Error al cargar los canales. Por favor, intente más tarde.</p>
+                    </div>
                 `;
-                
-                document.body.appendChild(modal);
             }
-    
-            // Iniciar carga de canales
-            loadChannels();
-        </script>
-    </body>
-    </html>
+        }
+
+        // Iniciar carga de canales
+        loadChannels();
+    </script>
+</body>
+</html>
