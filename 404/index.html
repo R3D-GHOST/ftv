@@ -251,8 +251,14 @@
         }
 
         function playChannel(url) {
-            let playerUrl = url.startsWith('acestream://') ? url : `acestream://${url}`;
-            
+            let playerUrl;
+
+            if (url.startsWith('acestream://')) {
+                playerUrl = url;
+            } else {
+                playerUrl = url; // Enlace que no es de AceStream
+            }
+
             const modal = document.createElement('div');
             modal.style.cssText = `
                 position: fixed;
@@ -265,11 +271,11 @@
                 z-index: 1000;
                 text-align: center;
             `;
-            
+
             modal.innerHTML = `
                 <h3>Abrir Canal</h3>
-                <p>¿Deseas abrir este canal con AceStream?</p>
-                <button onclick="window.open('${playerUrl}', '_blank'); this.parentElement.remove();" 
+                <p>¿Deseas abrir este canal?</p>
+                <button onclick="openPlayer('${playerUrl}')" 
                         style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
                     Abrir Canal
                 </button>
@@ -278,8 +284,39 @@
                     Cancelar
                 </button>
             `;
-            
+
             document.body.appendChild(modal);
+        }
+
+        function openPlayer(url) {
+            const videoPlayer = document.createElement('video');
+            videoPlayer.src = url;
+            videoPlayer.controls = true;
+            videoPlayer.style.width = '100%';
+            videoPlayer.style.height = 'auto';
+
+            const playerModal = document.createElement('div');
+            playerModal.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: rgba(0, 0, 0, 0.9);
+                padding: 20px;
+                border-radius: 10px;
+                z-index: 1001;
+                text-align: center;
+            `;
+
+            playerModal.appendChild(videoPlayer);
+            document.body.appendChild(playerModal);
+
+            videoPlayer.play();
+
+            // Cerrar el reproductor al hacer clic en el modal
+            playerModal.onclick = () => {
+                document.body.removeChild(playerModal);
+            };
         }
 
         async function loadChannels() {
