@@ -251,14 +251,7 @@
         }
 
         function playChannel(url) {
-            let playerUrl;
-
-            if (url.startsWith('acestream://')) {
-                playerUrl = url;
-            } else {
-                playerUrl = url; // Enlace que no es de AceStream
-            }
-
+            const isAceStream = url.startsWith('acestream://');
             const modal = document.createElement('div');
             modal.style.cssText = `
                 position: fixed;
@@ -275,10 +268,22 @@
             modal.innerHTML = `
                 <h3>Abrir Canal</h3>
                 <p>¿Deseas abrir este canal?</p>
-                <button onclick="openPlayer('${playerUrl}')" 
-                        style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
-                    Abrir Canal
-                </button>
+                ${isAceStream ? `
+                    <button onclick="openAceStream('${url}')" 
+                            style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
+                        Abrir en AceStream
+                    </button>
+                ` : `
+                    <p>Elige un reproductor externo:</p>
+                    <button onclick="openVLC('${url}')" 
+                            style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
+                        Abrir en VLC
+                    </button>
+                    <button onclick="openPlayer('${url}')" 
+                            style="background: var(--secondary-color); border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
+                        Abrir en otro reproductor
+                    </button>
+                `}
                 <button onclick="this.parentElement.remove()" 
                         style="background: #666; border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; color: white; cursor: pointer;">
                     Cancelar
@@ -288,35 +293,19 @@
             document.body.appendChild(modal);
         }
 
+        function openAceStream(url) {
+            window.open(url); // Abre el enlace AceStream en una nueva pestaña
+        }
+
+        function openVLC(url) {
+            const vlcUrl = `vlc://${url}`; // Cambia la URL para que VLC lo reconozca
+            window.open(vlcUrl); // Abre la URL en VLC
+        }
+
         function openPlayer(url) {
-            const videoPlayer = document.createElement('video');
-            videoPlayer.src = url;
-            videoPlayer.controls = true;
-            videoPlayer.style.width = '100%';
-            videoPlayer.style.height = 'auto';
-
-            const playerModal = document.createElement('div');
-            playerModal.style.cssText = `
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background: rgba(0, 0, 0, 0.9);
-                padding: 20px;
-                border-radius: 10px;
-                z-index: 1001;
-                text-align: center;
-            `;
-
-            playerModal.appendChild(videoPlayer);
-            document.body.appendChild(playerModal);
-
-            videoPlayer.play();
-
-            // Cerrar el reproductor al hacer clic en el modal
-            playerModal.onclick = () => {
-                document.body.removeChild(playerModal);
-            };
+            // Aquí puedes personalizar cómo abrir otro reproductor, por ejemplo, mostrando una nueva opción o simplemente abriendo un enlace.
+            alert("Selecciona un reproductor externo para abrir el enlace.");
+            // Puedes agregar más lógica para manejar diferentes reproductores.
         }
 
         async function loadChannels() {
