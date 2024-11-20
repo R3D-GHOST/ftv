@@ -1,14 +1,3 @@
-#EXTM3U
-#EXTINF:-1, ES DAZN FORMULA 1 FHD 
-http://628102028954165418.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/165418.ts?checkedby:iptvlister.com
-
-#EXTINF:-1, ES DAZN LALIGA HD 
-http://628102028954320781.ofd0208.xyz:80/play/hu1225340/YFKV9rbvXSy/320781.ts?checkedby:iptvlister.com
-
-#EXTINF:-1, ONETORO 
-https://iptvlister.com/req-data/download-side-list/f2c3dc2f62444a87bb45f14de56905e8/fad13a53d2/
-
-
 #EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg" group-title="Generalistas" tvg-name="La 1",La 1
 https://ztnr.rtve.es/ztnr/1688877.m3u8
 #EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg" group-title="Generalistas" tvg-name="La 1",La 1
